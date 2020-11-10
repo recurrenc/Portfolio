@@ -184,7 +184,7 @@ $(document).ready(function () {
       },
     },
     retina_detect: true,
-  });
+  })
 
   console.log("Particle js Script End")
 
