@@ -472,7 +472,9 @@ canvas {
 
 /* teams section styling */
 .teams .title::after {
-  content: "Members";
+  background-color: #fff;
+  border-radius: 20px;
+  content: " Members ";
 }
 
 .teams .carousel .card {
@@ -683,27 +685,24 @@ footer span a:hover {
 
 .icon-bar {
   position: fixed;
-  color: #0313f1;
-  right: 29px;
-  bottom: 60px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
+  right: 26px;
+  bottom: 85px;
+  opacity: 0;
+  z-index: 10;
+  transition: all 0.3s ease;
 }
 
-.icon-bar a {
+.showWa {
+  opacity: 1;
+}
+
+
+
+.icon-bar a>img {
+  width: 50px;
   display: block;
-  padding: 16px;
-  color: #0313f1;
   border-radius: 50px;
 }
-
-.whatsapp {
-  background: #0cf52b;
-  color: #0313f1;
-}
-
 
 
 /* responsive media query start */
@@ -859,8 +858,13 @@ footer span a:hover {
     line-height: 38px;
   }
 
+
   .icon-bar {
-    right: 14px;
-    bottom: 55px;
+    right: 17px;
+    bottom: 75px;
+  }
+
+  .icon-bar a>img {
+    width: 37px;
   }
 }
