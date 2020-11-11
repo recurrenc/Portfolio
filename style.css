@@ -219,6 +219,10 @@ section .title::after {
   margin-left: -3px;
 }
 
+.home .home-content .text-2 span {
+  color: rgba(2, 255, 2, .5);
+}
+
 .home .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
