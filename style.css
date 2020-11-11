@@ -340,6 +340,8 @@ canvas {
   background: #111;
   color: crimson;
   content: "what i provide";
+  background: #fff;
+  border-radius: 20px;
 }
 
 .services .serv-content .card {
@@ -384,6 +386,9 @@ canvas {
 
 .skills .title::after {
   content: "what i know";
+  background: #000;
+  color: #fff;
+  border-radius: 20px;
 }
 
 .skills .skills-content .column {

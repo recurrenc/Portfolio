@@ -2,3 +2,5 @@
 .firebaserc
 firebase.json
 .firebase
+
+./public
